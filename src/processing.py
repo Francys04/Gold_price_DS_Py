@@ -30,14 +30,14 @@ correlation = data.corr(numeric_only=True)
 plt.figure(1)
 plt.figure(figsize=(8, 8))
 sns.heatmap(correlation, cbar=True, fmt='.1f', annot=True, annot_kws={'size': 8}, cmap='Blues')
-plt.legend()
-# plt.show()
+# plt.legend(fontsize=1)
+plt.show()
 
 plt.figure(2)
 print(data['GLD'].head())
 
 sns.displot(data['GLD'], color='red')
-plt.legend(fontsize=1)
+# plt.legend(fontsize=1)
 plt.show()
 
 '''splitting the features and target'''

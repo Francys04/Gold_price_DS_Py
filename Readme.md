@@ -30,3 +30,7 @@ This Python script analyzes historical gold price data and uses a Random Forest 
 3. Train a Random Forest Regressor model on the training data.
 4. Make predictions on the test data and evaluate the model's performance using R-squared error.
 5. Visualize the actual vs. predicted gold prices.
+
+## Final results
+### Fig.1 Predict results
+<img src="img/Predict label and value.JPG">

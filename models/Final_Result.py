@@ -12,3 +12,5 @@ plt.ylabel('GLD Price')
 plt.legend()
 
 plt.show(block=True)
+
+#%%
